@@ -1,0 +1,28 @@
+.form_elem{
+    margin: 2rem;
+    font-size: 2rem;
+}
+
+.submit{
+cursor: pointer;
+background-color: green;
+padding: .5rem;
+}
+
+.container__form{
+    margin: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+.submit__container{
+    display: flex;
+    justify-content: center;
+}
+
+.result__container{
+    margin-top: 5rem;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+}

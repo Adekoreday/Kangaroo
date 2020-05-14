@@ -1,0 +1,9 @@
+table {
+  /*  margin: 0 20rem; smaller screens consider this*/
+    width: 100%;
+  }
+
+  .table__container{
+      margin: 5rem;
+  }
+  

@@ -1,0 +1,19 @@
+.header__layout{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #ffffff;
+    height: 10.0rem;
+    font-size: 2rem;
+    padding: 3rem 15rem  1rem 15rem;
+    box-sizing: border-box;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.15);
+  }
+  
+  .header__end{
+      margin-left: 60%;
+      display: flex;
+  }
+  
+  .header__item{
+      margin: 0rem 10rem;
+  }

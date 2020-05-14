@@ -1,0 +1,37 @@
+<form [formGroup]="myForm" (ngSubmit)="submitHandler()">
+  <div class="container__form">
+    <div class="form_elem">
+      <mat-form-field>
+        <input matInput placeholder="x1" formControlName="x1" />
+        <mat-error>x1 is not valid</mat-error>
+      </mat-form-field>
+    </div>
+    <div class="form_elem">
+      <mat-form-field>
+        <input matInput placeholder="v1" formControlName="v1" />
+        <mat-error>v1 is not valid</mat-error>
+      </mat-form-field>
+    </div>
+    <div class="form_elem">
+      <mat-form-field>
+        <input matInput placeholder="x2" formControlName="x2" />
+        <mat-error>x2 is not valid</mat-error>
+      </mat-form-field>
+    </div>
+    <div class="form_elem">
+      <mat-form-field>
+        <input matInput placeholder="v2" formControlName="v2" />
+        <mat-error>v2 is not valid</mat-error>
+      </mat-form-field>
+    </div>
+  </div>
+  <div class="submit__container">
+    <button mat-raised-button [disabled]="myForm.invalid" color="primary">
+      Result
+    </button>
+  </div>
+</form>
+
+<div class="result__container">
+    {{result}}
+</div>
