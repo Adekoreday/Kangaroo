@@ -26,3 +26,16 @@ padding: .5rem;
     display: flex;
     justify-content: center;
 }
+@media only screen and (max-width: 600px) {
+    .container__form {
+        display: block !important;
+        margin: 5rem;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .container__form {
+        display: block !important;
+        margin: 5rem 10rem;
+    }
+  }
